@@ -32,10 +32,12 @@
         </header>
       </div>
     </div>
-
-
-
-
+ <script>
+	if( /Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    window.location.replace('https://google.com');
+    /// or window.location.href = 'mobileurl';
+}
+</script>
 
     <footer class="footer">&copy; 2020 - CP Software Company</footer>
   </body>
